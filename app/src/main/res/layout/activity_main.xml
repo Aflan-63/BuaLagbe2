@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/animation_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <Button
+        android:id="@+id/login_acc"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bua"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/rounded"
+        android:fontFamily="@font/r_bold"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text" />
+
+   <!-- <Button
+        android:id="@+id/switch_acc"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:textSize="@dimen/text"
+        android:layout_alignStart="@+id/login_acc"
+        android:layout_below="@+id/login_acc"
+        android:textColor="@color/white"
+        android:fontFamily="@font/r_bold"
+        android:background="@drawable/rounded"
+        android:layout_marginTop="33dp"
+        android:text="@string/switch_acc" />-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        app:srcCompat="@drawable/bua" />
+
+    <TextView
+        android:id="@+id/bua"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/r_light"
+        android:text="@string/bua_lagbe"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/login_acc"
+        android:layout_marginTop="76dp"
+        android:alpha="0.6"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/background_login" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_acc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/r_black"
+        android:text="@string/desc_login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text" />
+</RelativeLayout>
